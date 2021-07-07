@@ -1,0 +1,40 @@
+html,body {
+    height: 100%;
+}
+#left{
+    background-color: black;
+}
+.flexbox{
+    padding-top: 10%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.heading{
+    font-size: 90px;
+    text-align: center;
+    color: white;
+}
+
+.text-description{
+    padding-top: 50px;
+    color: #D8C800;
+
+}
+
+.main-button{
+    background-color:white;
+    border-radius:28px;
+    border:2px white solid;
+    cursor:pointer;
+    color:black;
+    font-size:25px;
+    padding:6px 31px;
+    text-decoration:none;
+}
+#right{
+    background-color: #D8C800;
+}
+.logo-image{
+    border-radius: 25px;
+}
