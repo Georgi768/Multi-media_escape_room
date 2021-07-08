@@ -1,5 +1,6 @@
 html,body {
     height: 100%;
+    background-color: black;
 }
 #left{
     background-color: black;
@@ -9,11 +10,13 @@ html,body {
     width: 70%;
     margin: 0 auto;
 }
-
+::placeholder{
+    color: #D8C800;
+}
 .heading{
-    font-size: 90px;
+    font-size: 5vw;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .text-description{
@@ -35,6 +38,57 @@ html,body {
 #right{
     background-color: #D8C800;
 }
-.logo-image{
-    border-radius: 25px;
+.game-image{
+    background-color: lightblue;
+    width: 100%;
+    height: 85%;
+}
+.main-container{
+    margin: 5% auto 0;
+    width: 80%;
+    height: 100%;
+}
+.image-info{
+    margin-bottom: 10%;
+    width: 90%;
+    height: 50%;
+    background-image: url("Images/1st-game.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.next-button{
+    background-color:#D8C800;
+    border-radius:28px;
+    border:1px solid #D8C800;
+    cursor:pointer;
+    color:black;
+    font-size:17px;
+    padding:16px 51px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.mainColumn{
+    background-color: black;
+}
+.window-Column{
+    background-color: #D8C800;
+}
+
+.gameContainer{
+    height: 85%;
+    text-align: center;
+}
+.message{
+    font-size: 3vw;
+}
+.matrix-image{
+    background-image: url("Images/1st-game.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.image-column
+{
+    background-image: url("Images/octagonGame.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
