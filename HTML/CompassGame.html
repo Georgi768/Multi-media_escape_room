@@ -16,17 +16,16 @@
         <div class="col-md-6 mainColumn">
             <div class="d-flex flex-column align-items-center h-75">
                 <div class="col-8 col-sm-5 col-md-10 col-lg-10 h-75 matrix-image my-4"></div>
-                <div class="next-button">NEXT</div>
+                <div class="next-button" id="next-button" onclick="sendMessage()">NEXT</div>
             </div>
         </div>
         <div class="col-md-6 window-Column">
-
+            <div class="error-message" id="error"></div>
             <div class="d-flex justify-content-center h-100 align-items-center">
-
                 <form>
                     <div class="form-group">
                         <h1 class="heading">Find the missing letters !</h1>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter the letters"
+                        <input type="email" class="form-control" id="compassForm" placeholder="Enter the letters"
                                style="background-color: black;color: white;border: black;">
                     </div>
                 </form>
@@ -51,6 +50,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<script src="Jquery/jquery-3.6.0.min.js">
+</script>
+<script src="Script.js">
+
 </script>
 </body>
 
