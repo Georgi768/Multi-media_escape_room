@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <link href="Style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,8 +23,10 @@
                         <div class="row py-md-2">
                             <div class="col-md-6 col-lg-6 mx-auto">
                                 <h1 class="fw-light" style="color: white;"><strong>Find The Code</strong></h1>
-                                <img src="Images/adventureTime.jpg" class="img-fluid">
-                                <button type="button" class="btn btn-warning"><svg xmlns="http://www.w3.org/2000/svg"
+                                <div class="imagePlaceholder" id="placeholderImage">
+                                    <img src="Images/adventureTime.jpg" class="img-fluid" id="variableImage">
+                                </div>
+                                <button type="button" class="btn btn-warning" id="next-button-riddle"><svg xmlns="http://www.w3.org/2000/svg"
                                         width="25" height="25" fill="currentColor" class="bi bi-arrow-right"
                                         viewBox="0 0 16 16">
                                         <path fill-rule="evenodd"
@@ -33,21 +36,22 @@
                         </div>
                     </section>
                 </div>
-                <div class="col-md-6" style="background-color:#D8C800;  ">
+                <div class="col-md-6" style="background-color:#D8C800;">
+                    <div class="error-message" id="error"></div>
                     <section class="py-5 text-center container">
                         <div class="row py-md-2">
                             <div class="col-md-6 col-lg-6 mx-auto">
                                 <h1 class="fw-light"><strong>The Riddle</strong></h1>
-                                <p class="lead text-muted">Mountains will crumble to it and temples fall, and no man can
+                                <p class="h5" id="firstRiddle">Mountains will crumble to it and temples fall, and no man can
                                     survive its endless call. What is it?</p>
-                                <p class="lead text-muted">What lives on it's own substance, but dies as soon as it
+                                <p class="h5" id="secondRiddle">What lives on it's own substance, but dies as soon as it
                                     devours itself?</p>
-                                <p class="lead text-muted">You can hear me. You can see what I do. Me, you cannot see.
+                                <p class="h5" id="thirdRiddle">You can hear me. You can see what I do. Me, you cannot see.
                                     What am I?</p>
                                 <form>
                                     <div class="mb-3">
                                         <input type="text" class="form-control" id="guess" aria-describedby="guessHelp">
-                                        <div id="guessHelp" class="form-text">Take your guess...</div>
+                                        <p class="h5">Take your case...</p>
                                     </div>
                                 </form>
                             </div>
@@ -68,5 +72,8 @@
         </nav>
     </footer>
 </div>
+    <script src="Jquery/jquery-3.6.0.min.js">
+    </script>
+    <script src="RiddleScript.js"></script>
 </body>
 </html>
