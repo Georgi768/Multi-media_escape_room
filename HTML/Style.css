@@ -13,6 +13,12 @@ html,body {
 ::placeholder{
     color: #D8C800;
 }
+
+.Escape-room-title{
+    text-align: center;
+    font-size: 7vw;
+    color: white;
+}
 .heading{
     font-size: 5vw;
     text-align: center;
@@ -20,6 +26,7 @@ html,body {
 }
 
 .text-description{
+    text-align: center;
     padding-top: 50px;
     color: #D8C800;
 
@@ -91,4 +98,14 @@ html,body {
     background-image: url("Images/octagonGame.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
+}
+.error-message{
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: auto;
+    width: 25vh;
+    height: 35px;
+    border-radius: 0 0 25px 25px;
+
 }
