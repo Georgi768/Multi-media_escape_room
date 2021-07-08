@@ -14,7 +14,7 @@ html,body {
     color: #D8C800;
 }
 .heading{
-    font-size: 90px;
+    font-size: 5vw;
     text-align: center;
     color: black;
 }
@@ -75,11 +75,16 @@ html,body {
 }
 
 .gameContainer{
-    height: 80%;
+    height: 85%;
     text-align: center;
 }
 .message{
     font-size: 3vw;
+}
+.matrix-image{
+    background-image: url("Images/1st-game.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 .image-column
 {
