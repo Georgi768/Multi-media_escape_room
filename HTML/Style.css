@@ -16,7 +16,7 @@ html,body {
 .heading{
     font-size: 90px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .text-description{
@@ -67,6 +67,23 @@ html,body {
     text-decoration:none;
     text-shadow:0px 1px 0px #2f6627;
 }
-.yes{
-    background-color: blue;
+.mainColumn{
+    background-color: black;
+}
+.window-Column{
+    background-color: #D8C800;
+}
+
+.gameContainer{
+    height: 80%;
+    text-align: center;
+}
+.message{
+    font-size: 3vw;
+}
+.image-column
+{
+    background-image: url("Images/octagonGame.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
